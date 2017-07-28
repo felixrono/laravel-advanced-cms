@@ -26,20 +26,20 @@
                 <a href="#" class="nav-item is-tab is-hidden-mobile">Share</a>
             </div>
 
-            <div class="nav-right">
+            <div class="nav-right" style="overflow: visible;">
             @if(Auth::guest())
                 <a href="#" class="nav-item is-tab ">Login</a>
                 <a href="#" class="nav-item is-tab ">Join the Community</a>
                 @else
-                <button class="dropdown nav-item is-openis-tab">
-                    Hey Alex<span class="icon"> <i class="fa fa-caret-down"></i></span>
-
+                <button class="dropdown nav-item is-tab">
+                    Hey User <span class="icon"><i class="fa fa-caret-down"></i></span>
                     <ul class="dropdown-menu">
-                        <li><a href="#">Profile</a></li>
-                        <li><a href="#">Notification</a></li>
-                        <li><a href="#">Settings</a></li>
+                        <li> <a style="             margin-left: 5px; padding: 5px 0 5px 10px; display: block;" class="items" href="#">Profile</a></li>
+                        <li> <a style="             margin-left: 5px; padding: 5px 0 5px 10px; display: block;"class="items" href="#">Notifications</a></li>
+                        <li> <a style="             margin-left: 5px; padding: 5px 0 5px 10px; display: block;"class="items" href="#">Settings</a></li>
                         <li class="separator"></li>
-                        <li><a href="#">Logout</a></li>
+                        <li> <a style="             margin-left: 5px; padding: 5px 0 5px 10px; display: block;"class="items" href="#">Logout</a></li>
+
                     </ul>
                 </button>
                 @endif
