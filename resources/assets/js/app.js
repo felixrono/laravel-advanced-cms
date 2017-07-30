@@ -15,4 +15,10 @@ Vue.use(Buefy);
 var app = new Vue({
 	el: '#app',
 	
-})
+});
+
+$(document).ready(function(){
+	$('button.dropdown').hover(function(){
+		$(this).toggleClass('is-open')
+	});
+});
