@@ -29,8 +29,8 @@
 
             <div class="nav-right" style="overflow: visible;">
                 @if(Auth::guest())
-                <a href="#" class="nav-item is-tab">Login</a>
-                 <a href="#" class="nav-item is-tab">Join the Community</a>
+                <a href="{{route('login')}}" class="nav-item is-tab">Login</a>
+                 <a href="{{route('register')}}" class="nav-item is-tab">Join the Community</a>
                  @else
                  <button class="dropdown  nav-item is-tab">
                      Hey Felix<span class="icon"><i class="fa fa-caret-down"></i></span>

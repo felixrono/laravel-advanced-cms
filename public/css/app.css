@@ -13984,6 +13984,14 @@ label.panel-block:hover {
   transition: opacity 86ms ease-out, visibility 86ms ease-out;
 }
 
+.is-muted {
+  color: #b5b5b5 !important;
+}
+
+.is-muted:hover {
+  color: #7a7a7a !important;
+}
+
 .dropdown {
   position: relative;
 }
