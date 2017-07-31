@@ -13,7 +13,11 @@ import Buefy from 'buefy'
 
 Vue.use(Buefy);
 var app = new Vue({
-	el: '#app',
+	el:'#app',
+	data:{
+		auto_password:true,
+		password_options:'keep'
+		}
 	
 });
 
